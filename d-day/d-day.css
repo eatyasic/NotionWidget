@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -ms-overflow-style: none; /* 인터넷 익스플로러 */
+    scrollbar-width: none; /* 파이어폭스 */
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--background);
+}
+
+body::-webkit-scrollbar {
+    display: none; /* 크롬, 사파리, 오페라, 엣지 */
+}
+
+.dday__text {
+    text-align: center;
+    border: 1px solid var(--text);
+    padding: 15px;
+    line-height: 25px;
+    color: var(--text);
+}

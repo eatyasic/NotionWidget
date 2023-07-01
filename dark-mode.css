@@ -1,0 +1,35 @@
+:root[color-theme="light"] {
+    --background: #fff;
+    --text: #000;
+    --theme-button: #505050;
+    --theme-button__text: #fff;
+    --theme-button--hover: #000000;
+}
+
+:root[color-theme="dark"] {
+    --background: #000;
+    --text: #fff;
+    --theme-button: #939393;
+    --theme-button__text: #000;
+    --theme-button--hover: #ffffff;
+}
+
+body:hover .select-theme__button {
+    display: block;
+}
+
+.select-theme__button {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    display: none;
+    background-color: var(--theme-button);
+    color: var(--theme-button__text);
+    border-radius: 10px;
+    padding: 6px 10px;
+    transition: 0.3s;
+    border: none;
+}
+.select-theme__button:hover {
+    background-color: var(--theme-button--hover);
+}
