@@ -1,16 +1,16 @@
 :root[color-theme="light"] {
     --background: #fff;
-    --text: #000;
+    --text: #191919;
     --theme-button: #505050;
     --theme-button__text: #fff;
-    --theme-button--hover: #000000;
+    --theme-button--hover: #191919;
 }
 
 :root[color-theme="dark"] {
-    --background: #000;
+    --background: #191919;
     --text: #fff;
     --theme-button: #939393;
-    --theme-button__text: #000;
+    --theme-button__text: #191919;
     --theme-button--hover: #ffffff;
 }
 
